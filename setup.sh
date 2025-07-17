@@ -8,7 +8,7 @@ if ! pgrep -x Hyprland > /dev/null && [ "$XDG_CURRENT_DESKTOP" != "Hyprland" ]; 
 fi
 
 # Clone the repo if not already present
-REPO_URL="https://github.com/YOUR_USERNAME/focus-audios.git"
+REPO_URL="https://github.com/alanhorvitz/focus-audios.git"
 TARGET_DIR="$HOME/focus-audios"
 
 if [ ! -d "$TARGET_DIR" ]; then
